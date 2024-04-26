@@ -1,24 +1,25 @@
-//1st step;
 
-// type User = { 
-//     firstName: string,
-//     lastName: string,
-//     age: number
-// }
-
-//2nd Step;
-
-// function greet(id: (number|string)){
-
-// }
-
-//or we can write it either way;
-
-//type userData = () => number | string
+type User = { 
+    firstName: string,
+    lastName: string,
+    age: number
+}
 
 
-// greet("hello")
-// greet(1)
+
+function greet(id: (number|string)){
+
+}
+
+
+/*or we can write it either way;*/
+
+type userData = () => number | string
+
+greet("hello")
+greet(1)
+
+
 
 type Employee = {
     name:string,
