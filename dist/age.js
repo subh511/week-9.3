@@ -1,3 +1,4 @@
+"use strict";
 function isLegal(age) {
     if (age >= 18) {
         return true;
@@ -6,5 +7,5 @@ function isLegal(age) {
         return false;
     }
 }
-var voting = isLegal(16);
+let voting = isLegal(16);
 console.log(voting);
