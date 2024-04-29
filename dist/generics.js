@@ -8,6 +8,6 @@
 function firstElem(arg) {
     return arg;
 }
-console.log(firstElem("samrat"));
+console.log(firstElem("samrat").toUpperCase());
 console.log(firstElem(10));
 console.log(firstElem(false));
